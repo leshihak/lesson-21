@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 420px;
+  height: 620px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 2px double whitesmoke;
+  border-radius: 30px;
+}
+
+.cellphone {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-top: 7px;
+  border: 1px double rgb(95, 94, 94);
+  border-radius: 20px; 
+  position: relative;
+}
+
+.block {
+  width: 400px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.one, .two {
+  height: 90px;
+  width: 120px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  display: none;
+  color: white;
+}
+
+.two {
+  display: none;
+}
